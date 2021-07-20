@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+  <title>Personal Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sabisa Siganga" />
+
+  <meta content="Sabisa Siganga" name="author" />
+  <!-- favicon -->
+  <link rel="shortcut icon" href="http://zoyothemes.com/queue/layout/images/favicon.ico" />
+  <!-- Bootstrap -->
+  <link href="./assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <!-- MK Lightbox -->
+  <link href="./assets/css/mklb.css" rel="stylesheet" type="text/css" />
+  <!-- Icons -->
+  <link href="./assets/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+  <!-- Slider -->
+  <link href="./assets/css/tiny-slider.css" rel="stylesheet" />
+  <!-- Main css File -->
+  <link href="./assets/css/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
+  <link href="./assets/css/red.css" rel="stylesheet" id="color-opt" />
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("user_E4L3tUSGMRnwI8ko2mYov");
+    })();
+  </script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-offset="20" data-bs-target="#navbar-navlist">
+  <!-- Loader -->
+  <div id="preloader" style="visibility: hidden; opacity: 0">
+    <div id="status">
+      <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+      </div>
+    </div>
+  </div>
+  <!-- Loader -->
+
+  <!-- Navbar Start -->
+  <nav id="navbar" class="
+        navbar navbar-expand-lg
+        fixed-top
+        navbar-custom navbar-light
+        sticky
+      ">
+    <div class="container">
+      <!-- Logo container-->
+      <a class="logo navbar-brand" href="#">Lummy</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="mdi mdi-menu"></i>
+      </button>
+      <!--end button-->
+
+      <div class="collapse navbar-collapse navigation" id="navbarCollapse">
+        <ul id="navbar-navlist" class="navbar-nav navbar-nav-link ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <!--end nav item-->
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <!--end nav item-->
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <!--end nav item-->
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <ul class="
+              top-right
+              text-right
+              list-unstyled list-inline
+              mb-0
+              mt-2 mt-sm-0
+              nav-social
+            ">
+          <li class="list-inline-item me-2">
+            <a href="https://linkedin.com/in/sabisa-siganga" target="_blank"><i class="mdi mdi-linkedin"></i></a>
+          </li>
+          <li class="list-inline-item me-2">
+            <a href="https://github.com/sabisa-siganga" target="_blank"><i class="mdi mdi-github-circle"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--end container-->
+  </nav>
+  <!--end navbar-->
+  <!-- Navbar End -->
+
+  <!-- Hero Area -->
+  <div class="hero-area position-relative bg-half-120" style="background-image: url(./assets/img/showcase.jpg)"
+    id="home">
+    <div class="bg-overlay"></div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-12 col-md-12 align-items-center text-center">
+          <div class="title-heading mt-4 pb-60">
+            <img src="./assets/img/s2.jpg" class="img-fluid rounded-circle" alt="" />
+            <h1 class="heading font-36 text-white mt-4">
+              Hey, I'm Sabisa Siganga
+            </h1>
+            <h6 class="designation mb-3 text-white">
+              I'm a passionate
+              <span class="text-primary">front-end developer</span>
+            </h6>
+            <div class="hero-btn mt-4 pt-2">
+              <a href="javascript:void(0)" class="btn btn-primary rounded me-2 mb-2">Hire Me</a>
+              <a href="javascript:void(0)" class="btn btn-primary rounded text-white mb-2">Download CV
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-download fea icon-sm">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="card public-profile border-0 rounded shadow no-margin" style="z-index: 1">
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col-lg-3 col-md-4 text-md-start">
+                  <!--<img src="images/client/05.jpg" class="avatar avatar-large rounded-circle shadow d-block mx-auto" alt="">-->
+                  <div class="about-details key-feature bg-light">
+                    <div class="media-body content">
+                      <h6 class="title mb-2">Personal Details</h6>
+                      <div class="bor-bottom mt-2 mb-2"></div>
+                      <p class="text-muted mb-2 mt-3 font-14">
+                        <a href="javascript:void(0)" class="text-black">Email:
+                        </a>
+                        lumisabisa@gmail.com
+                      </p>
+                      <p class="text-muted mb-2 font-14">
+                        <a href="javascript:void(0)" class="text-black">Languages:
+                        </a>
+                        English and isiXhosa
+                      </p>
+                      <p class="text-muted mb-0 font-14">
+                        <a href="javascript:void(0)" class="text-black">Nationality:
+                        </a>
+                        South African
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-9 col-md-8">
+                  <div class="row align-items-end">
+                    <div class="col-md-12 text-md-start mt-4 mt-sm-0">
+                      <h4 class="heading me-2">
+                        I'm
+                        <span class="element text-primary" data-elements="Web Developer, front end developer"></span>
+                        <span id="typed" class="text-primary"></span>
+
+                      </h4>
+                      <p class="text-light-muted mt-2">
+                        I have built various websites for clients. I use bootstrap
+                        often for website responsiveness, thus making the turnaround of my projects quick. For me, GIT
+                        is a vital tool for tracking my
+                        progress and files, as well as to collaborate with other developers.</p>
+                      <p class="text-light-muted mt-2">
+                        Currently, I am on my way to mastering React, looking forward to learning backend, with Node,
+                        Express, and
+                        MySQL. I am looking for a position where I can apply, enhance and challenge my skills.
+                      </p>
+                      <img src="./Queue - Personal Portfolio Template_files/signature.png" height="35" alt="" />
+                    </div>
+                    <!--end col-->
+                  </div>
+                  <!--end row-->
+                </div>
+                <!--end col-->
+              </div>
+              <!--end row-->
+            </div>
+          </div>
+        </div>
+        <!--end col-->
+      </div>
+      <!--end row-->
+    </div>
+    <!--end container-->
+  </section>
+  <!--end section -->
+
+  <!-- Skill & CTA START -->
+  <section class="cta-full" id="skills">
+    <div class="container">
+      <div class="row position-relative">
+        <!-- end col -->
+        <div class="col-lg-12">
+          <div class="cta-full-img-box">
+            <div class="row justify-content-center">
+              <div class="col-12 text-center mb-3">
+                <div class="container-title">
+                  <div class="titles">
+                    <h4 class="title title-line text-capitalize mb-4">
+                      Skills
+                    </h4>
+                  </div>
+                  <p class="text-light-muted mx-auto width-max mb-0">
+                    "Skills development is a never ending journey, so keep on
+                    learning"
+                  </p>
+                </div>
+              </div>
+              <!--end col-->
+            </div>
+            <!--end row-->
+
+            <div class="row align-items-center">
+              <div class="col-lg-3 col-6 mt-4 pt-2">
+                <div class="
+                      card
+                      explore-feature
+                      border-0
+                      text-center
+                      bg-white
+                      p-2
+                    ">
+                  <div class="card-body p-0">React JS</div>
+                </div>
+              </div>
+              <!--end col-->
+
+              <div class="col-lg-3 col-6 mt-4 pt-2">
+                <div class="
+                      card
+                      explore-feature
+                      border-0
+                      text-center
+                      bg-white
+                      p-2
+                    ">
+                  <div class="card-body p-0">HTML5</div>
+                </div>
+              </div>
+              <!--end col-->
+
+              <div class="col-lg-3 col-6 mt-4 pt-2">
+                <div class="
+                      card
+                      explore-feature
+                      border-0
+                      text-center
+                      bg-white
+                      p-2
+                    ">
+                  <div class="card-body p-0">CSS3</div>
+                </div>
+              </div>
+              <!--end col-->
+
+              <div class="col-lg-3 col-6 mt-4 pt-2">
+                <div class="
+                      card
+                      explore-feature
+                      border-0
+                      text-center
+                      bg-white
+                      p-2
+                    ">
+                  <div class="card-body p-0">JavaScript</div>
+                </div>
+              </div>
+              <!--end col-->
+            </div>
+            <!-- end row -->
+
+            <div class="row align-items-center">
+              <div class="col-lg-3 col-6 mt-4 pt-2">
+                <div class="
+                      card
+                      explore-feature
+                      border-0
+                      text-center
+                      bg-white
+                      p-2
+                    ">
+                  <div class="card-body p-0">Bootstrap</div>
+                </div>
+              </div>
+              <!--end col-->
+
+              <div class="col-lg-3 col-6 mt-4 pt-2">
+                <div class="
+                      card
+                      explore-feature
+                      border-0
+                      text-center
+                      bg-white
+                      p-2
+                    ">
+                  <div class="card-body p-0">Git</div>
+                </div>
+              </div>
+              <!--end col-->
+
+              <div class="col-lg-3 col-6 mt-4 pt-2">
+                <div class="
+                      card
+                      explore-feature
+                      border-0
+                      text-center
+                      bg-white
+                      p-2
+                    ">
+                  <div class="card-body p-0">Communication</div>
+                </div>
+              </div>
+              <!--end col-->
+
+              <div class="col-lg-3 col-6 mt-4 pt-2">
+                <div class="
+                      card
+                      explore-feature
+                      border-0
+                      text-center
+                      bg-white
+                      p-2
+                    ">
+                  <div class="card-body p-0">Team Work</div>
+                </div>
+              </div>
+              <!--end col-->
+
+              <div class="col-lg-3 col-6 mt-4 pt-2">
+                <div class="
+                      card
+                      explore-feature
+                      border-0
+                      text-center
+                      bg-white
+                      p-2
+                    ">
+                  <div class="card-body p-0">Research</div>
+                </div>
+              </div>
+              <!--end col-->
+            </div>
+            <!-- end row -->
+          </div>
+          <!-- end about detail -->
+        </div>
+        <!-- end col -->
+      </div>
+      <!--end row-->
+    </div>
+    <!--end container fluid-->
+  </section>
+  <!--end section-->
+  <!-- Skill & CTA End -->
+
+  <!-- Projects/Work Start -->
+  <section class="section bg-light" id="projects">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <div class="container-title text-center mb-4 pb-2">
+            <div class="titles">
+              <h2 class="title text-capitalize mb-4">Projects</h2>
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <!--end col-->
+      </div>
+      <!--end row-->
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+          <div class="
+                card
+                border-0
+                work-container work-modern
+                position-relative
+                d-block
+                overflow-hidden
+                rounded
+              ">
+            <div class="card-body p-0">
+              <img src="./assets/img/projects/instagram-clone.png" class="img-fluid" alt="work-image" />
+              <div class="overlay-work bg-dark"></div>
+              <div class="content">
+                <h5 class="mb-0">
+                  <a href="https://github.com/sabisa-siganga/instagram-clone" class="text-white title"
+                    target="_blank">Instagram Clone</a>
+                </h5>
+                <h6 class="text-light tag mb-0">Current project</h6>
+              </div>
+              <div class="icons text-center">
+                <a href="javascript:void(0)" data-src="./assets/img/projects/instagram-clone.png" data-gallery="myGal"
+                  class="
+                      text-primary
+                      work-icon
+                      bg-white
+                      d-inline-block
+                      rounded-pill
+                      mfp-image
+                    ">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-camera fea icon-sm">
+                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                    <circle cx="12" cy="13" r="4"></circle>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end col-->
+
+        <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+          <div class="
+                card
+                border-0
+                work-container work-modern
+                position-relative
+                d-block
+                overflow-hidden
+                rounded
+              ">
+            <div class="card-body p-0">
+              <img src="./assets/img/projects/map-routes.png" class="img-fluid" alt="work-image" />
+              <div class="overlay-work bg-dark"></div>
+              <div class="content">
+                <h5 class="mb-0">
+                  <a href="https://github.com/sabisa-siganga/map-routing" class="text-white title" target="_blank">Map
+                    Routes</a>
+                </h5>
+                <h6 class="text-light tag mb-0">Delivery app using Tom-Tom's routing API</h6>
+              </div>
+              <div class="icons text-center">
+                <a href="javascript:void(0)" data-src="./assets/img/projects/map-routes.png" data-gallery="myGal" class="
+                      text-primary
+                      work-icon
+                      bg-white
+                      d-inline-block
+                      rounded-pill
+                      mfp-image
+                    "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-camera fea icon-sm">
+                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                    <circle cx="12" cy="13" r="4"></circle>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end col-->
+
+        <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+          <div class="
+                card
+                border-0
+                work-container work-modern
+                position-relative
+                d-block
+                overflow-hidden
+                rounded
+              ">
+            <div class="card-body p-0">
+              <img src="./assets/img/projects/music-app.png" class="img-fluid" alt="work-image" />
+              <div class="overlay-work bg-dark"></div>
+              <div class="content">
+                <h5 class="mb-0">
+                  <a href="https://github.com/sabisa-siganga/music-app" class="text-white title" target="_blank">Music
+                    App</a>
+                </h5>
+                <h6 class="text-light tag mb-0">Music app with ability to have a playlist</h6>
+              </div>
+              <div class="icons text-center">
+                <a href="javascript:void(0)" data-src="./assets/img/projects/music-app.png" data-gallery="myGal" class="
+                      text-primary
+                      work-icon
+                      bg-white
+                      d-inline-block
+                      rounded-pill
+                      mfp-image
+                    "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-camera fea icon-sm">
+                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                    <circle cx="12" cy="13" r="4"></circle>
+                  </svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end col-->
+
+        <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+          <div class="
+                card
+                border-0
+                work-container work-modern
+                position-relative
+                d-block
+                overflow-hidden
+                rounded
+              ">
+            <div class="card-body p-0">
+              <img src="./assets/img/projects/weather-app.png" class="img-fluid" alt="work-image" />
+              <div class="overlay-work bg-dark"></div>
+              <div class="content">
+                <h5 class="mb-0">
+                  <a href="https://github.com/sabisa-siganga/weather-app" class="text-white title"
+                    target="_blank">Weather App</a>
+                </h5>
+                <h6 class="text-light tag mb-0">Get current weather forecast</h6>
+              </div>
+              <div class="icons text-center">
+                <a href="javascript:void(0)" data-src="./assets/img/projects/weather-app.png" data-gallery="myGal"
+                  class="
+                      text-primary
+                      work-icon
+                      bg-white
+                      d-inline-block
+                      rounded-pill
+                      mfp-image
+                    "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-camera fea icon-sm">
+                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                    <circle cx="12" cy="13" r="4"></circle>
+                  </svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end col-->
+
+        <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+          <div class="
+                card
+                border-0
+                work-container work-modern
+                position-relative
+                d-block
+                overflow-hidden
+                rounded
+              ">
+            <div class="card-body p-0">
+              <img src="./assets/img/projects/bootstrap.png" class="img-fluid" alt="work-image" />
+              <div class="overlay-work bg-dark"></div>
+              <div class="content">
+                <h5 class="mb-0">
+                  <a href="https://github.com/sabisa-siganga/basic-bootstrap" class="text-white title"
+                    target="_blank">Responsive website</a>
+                </h5>
+                <h6 class="text-light tag mb-0">Responsive website using bootstrap</h6>
+              </div>
+              <div class="icons text-center">
+                <a href="javascript:void(0)" data-src="./assets/img/projects/bootstrap.png" data-gallery="myGal" class="
+                      text-primary
+                      work-icon
+                      bg-white
+                      d-inline-block
+                      rounded-pill
+                      mfp-image
+                    "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-camera fea icon-sm">
+                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                    <circle cx="12" cy="13" r="4"></circle>
+                  </svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end col-->
+
+        <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+          <div class="
+                card
+                border-0
+                work-container work-modern
+                position-relative
+                d-block
+                overflow-hidden
+                rounded
+              ">
+            <div class="card-body p-0">
+              <img src="./assets/img/projects/robo-friends.png" class="img-fluid" alt="work-image" />
+              <div class="overlay-work bg-dark"></div>
+              <div class="content">
+                <h5 class="mb-0">
+                  <a href="https://github.com/sabisa-siganga/Robofriends" class="text-white title"
+                    target="_blank">Robo-Friends</a>
+                </h5>
+                <h6 class="text-light tag mb-0">Robo-Friends app with ReactJS</h6>
+              </div>
+              <div class="icons text-center">
+                <a href="javascript:void(0)" data-src="./assets/img/projects/robo-friends.png" data-gallery="myGal"
+                  class="
+                      text-primary
+                      work-icon
+                      bg-white
+                      d-inline-block
+                      rounded-pill
+                      mfp-image
+                    "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-camera fea icon-sm">
+                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                    <circle cx="12" cy="13" r="4"></circle>
+                  </svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end col-->
+
+        <div class="col-12 mt-4 pt-2">
+          <div class="text-center">
+            <a href="https://github.com/sabisa-siganga?tab=repositories" class="btn btn btn-primary rounded"
+              target="_blank">See More <i class="mdi mdi-chevron-right"></i></a>
+          </div>
+        </div>
+        <!--end col-->
+      </div>
+      <!--end row-->
+    </div>
+    <!-- End container -->
+  </section>
+  <!-- Projects End -->
+
+  <!-- Contact Start -->
+  <section class="section pb-0" id="contact">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <div class="container-title text-center mb-4 pb-2">
+            <div class="titles">
+              <h2 class="title text-capitalize mb-4">Contact Me</h2>
+
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <!--end col-->
+      </div>
+      <!--end row-->
+
+      <div class="row">
+        <div class="col-md-4 mt-4 pt-2">
+          <div class="contact-detail text-center">
+            <div class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-phone fea icon-md">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                </path>
+              </svg>
+            </div>
+            <div class="content mt-4">
+              <h5 class="title">Phone</h5>
+              <a href="tel:+2778-823-7034" class="text-primary">+2778 843 7034</a>
+            </div>
+          </div>
+        </div>
+        <!--end col-->
+
+        <div class="col-md-4 mt-4 pt-2">
+          <div class="contact-detail text-center">
+            <div class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-mail fea icon-md">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </div>
+            <div class="content mt-4">
+              <h5 class="title">Email</h5>
+              <a href="mailto:lumisabisa@gmail.com" class="text-primary">lumisabisa@gmail.com
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--end col-->
+
+        <div class="col-md-4 mt-4 pt-2">
+          <div class="contact-detail text-center">
+            <div class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-map-pin fea icon-md">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <div class="content mt-4">
+              <h5 class="title">Location</h5>
+              <p class="text-light-muted">
+                17 Vickery Avenue, Glenvista, 2091 <br />Johannesburg, SA
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--end col-->
+      </div>
+      <!--end row-->
+    </div>
+    <!--end container-->
+  </section>
+  <!--end section-->
+
+  <section class="section pt-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+          <div class="custom-form mb-sm-30">
+            <form method="post" name="myForm" onsubmit="return validateForm()">
+              <p id="error-msg"></p>
+              <div id="simple-msg"></div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="row">
+                    <div class="col-lg-12 col-md-6">
+                      <div class="form-group">
+                        <input name="name" id="name" type="text" class="form-control border rounded"
+                          placeholder="First Name :" />
+                      </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-12 col-md-6">
+                      <div class="form-group">
+                        <input name="email" id="email" type="email" class="form-control border rounded"
+                          placeholder="Your email :" />
+                      </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-12">
+                      <div class="form-group">
+                        <input name="subject" id="subject" class="form-control border rounded"
+                          placeholder="Your subject :" />
+                      </div>
+                    </div>
+                    <!--end col-->
+                  </div>
+                  <!--end row-->
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <textarea name="comments" id="comments" rows="4" class="form-control border rounded"
+                      placeholder="Your Message :"></textarea>
+                  </div>
+                </div>
+                <!--end col-->
+              </div>
+              <!--end row-->
+              <div class="row">
+                <div class="col-sm-12 text-end">
+                  <input type="submit" id="submit" name="send" class="submitBnt btn btn btn-primary rounded"
+                    value="Send Message" />
+                </div>
+                <!--end col-->
+              </div>
+              <!--end row-->
+            </form>
+            <!--end form-->
+          </div>
+          <!--end custom-form-->
+        </div>
+        <!--end col-->
+      </div>
+      <!--end row-->
+    </div>
+    <!--end container-->
+  </section>
+  <!--end section-->
+  <!-- Contact End -->
+
+  <!-- Footer Start -->
+  <footer class="footer bg-light">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <a href="javascript:void(0)" class="footer-logo text-black">Lummy</a>
+          <ul class="list-unstyled mb-0 mt-4 social-icon">
+            <li class="list-inline-item me-1">
+              <a href="https://github.com/sabisa-siganga" target="_blank" class="rounded-circle"><i
+                  class="mdi mdi-github-circle"></i></a>
+            </li>
+            <li class="list-inline-item me-1">
+              <a href="https://linkedin.com/in/sabisa-siganga" target="_blank" class="rounded-circle"><i
+                  class="mdi mdi-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+        <!--end col-->
+      </div>
+      <!--end row-->
+    </div>
+    <!--end container-->
+  </footer>
+  <!--end footer-->
+  <footer class="footer footer-bar bg-black">
+    <div class="container text-foot text-center">
+      <p class="mb-0 text-white-50">
+        ©
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Designed by
+        <a href="javascript:void(0)" class="text-white-50">Sabisa Siganga</a>
+      </p>
+    </div>
+    <!--end container-->
+  </footer>
+  <!--end footer-->
+  <!-- Footer End -->
+
+  <a href="javascript: void(0);" class="back-to-top btn btn-icon btn-soft-primary" id="back-to-top"
+    onclick="topFunction()" style="display: none">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up icons">
+      <line x1="12" y1="19" x2="12" y2="5"></line>
+      <polyline points="5 12 12 5 19 12"></polyline>
+    </svg>
+  </a>
+  <!-- Back to top -->
+
+  <!-- Javascript -->
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Slider -->
+  <script src="./assets/js/tiny-slider.js"></script>
+  <script src="./assets/js/tiny-slider-init.js"></script>
+
+  <!-- MK Lightbox -->
+  <script src="./assets/js/mklb.js"></script>
+
+  <!-- Contact -->
+  <script src="./assets/js/contact.js"></script>
+
+  <!-- Counter init -->
+  <script src="./assets/js/counter.init.js"></script>
+
+  <!-- Feather icon -->
+  <script src="./assets/js/feather.min.js"></script>
+
+  <!-- Typed -->
+  <script src="./assets/js/typed.js"></script>
+  <script src="./assets/js/typed.init.js"></script>
+  <style type="text/css" data-typed-js-css="true">
+    .typed-cursor {
+      opacity: 1;
+    }
+
+    .typed-cursor.typed-cursor--blink {
+      animation: typedjsBlink 0.7s infinite;
+      -webkit-animation: typedjsBlink 0.7s infinite;
+      animation: typedjsBlink 0.7s infinite;
+    }
+
+    @keyframes typedjsBlink {
+      50% {
+        opacity: 0;
+      }
+    }
+
+    @-webkit-keyframes typedjsBlink {
+      0% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+
+  <!-- Main Js -->
+  <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
